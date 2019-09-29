@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b4c77bb-038b-4d65-b091-d6c72cb15ba4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/SimpleFactory/ConcreteProductA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../design_pattern/src/SimpleFactory/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/AuthApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/aspect/HttpAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/cache/CacheTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/cache/TokenCacheService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/cache/TokenCacheServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/config/DruidConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/config/MySecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/config/PageHelperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/controller/DepartmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/controller/ExternalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/controller/MenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/controller/OperationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/domain/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/domain/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/domain/MyUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/domain/Operation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/domain/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/domain/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/domain/RoleMenuOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/domain/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/domain/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/dto/Authorities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/dto/LoginInitialDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/dto/MenuDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/dto/PageBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/dto/PasswordChangeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/dto/SimpleRoleDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/dto/SimpleUserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/exceptions/BeforeControllerExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/exceptions/EnumExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/exceptions/HandleExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/exceptions/JcExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/mapper/DepartmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/mapper/MenuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/mapper/OperationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/mapper/RoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/mapper/RoleMenuOperationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/mapper/TokenMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/quartz/TokenQuartz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/CardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/CardServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/DepartmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/DepartmentServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/MenuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/MenuServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/MyUserServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/OperationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/OperationServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/RoleServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/service/UserServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/utils/AuthoritiesUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/utils/JWTauthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/utils/JWTauthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/utils/JWTloginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/utils/ResultUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/utils/jwt/JWTCompressUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/utils/jwt/JwtProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/java/com/jinchi/auth/utils/jwt/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/application-hndx.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/application-local.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/backup/jc_auth_db_bak (1).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/backup/jc_integration_db_bak (1).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/xml/DepartmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/xml/MenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/xml/OperationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/xml/RoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/xml/TokenMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auth/src/main/resources/xml/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/CommonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/aspect/DynamicDataSourceAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/config/DynamicDataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/config/MybatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/config/PrimaryDataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/config/SecondaryDataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/config/WebMvcConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/constant/AddressEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/constant/BatchStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/constant/BatchTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/constant/DataSourceKey.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/constant/EquipmentManufacturerEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/constant/EquipmentRepairStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/constant/QualitySampleStatusEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/constant/QualitySampleTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/constant/QualityTaskTypeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/AuthUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/BatchNumberStandardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/CommonBatchNumberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/DeliveryFactoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/DeptManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/DeviceDocumentManageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/DeviceMaintenanceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/DeviceStatusController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/EquipmentArchiveRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/EquipmentBaseInstrumentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/EquipmentBaseManufacturerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/EquipmentInstructorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/EquipmentRepairRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/ExternalController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/ExternalRepoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/MiddleProductionDetectionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/ProcedureTestRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/ProductLineController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/ProductRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/ProductionProcessController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/PurchaseReportRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/RawTestReportController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/RepoBaseSerialNumberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/RepoDiffRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/RepoInRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/RepoOutApplyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/RepoRedTableController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/RepoStockController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/SampleDeliveringRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/SortingOutStockController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/TaskController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/TechniqueProductStandardRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/TechniqueRawStandardRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/TestItemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/TestItemResultController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/TestReportController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/UnqualifiedTestReportRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/UnqualifiedTracingRecordController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/UploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/controller/WeChatController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/BasicInfoDept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/BasicInfoDeptExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/BasicInfoDeviceStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/BasicInfoDeviceStatusExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/BasicInfoUserDeviceDeptMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/BasicInfoUserDeviceDeptMapExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/CommonBatchNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DataTaskRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeliveryFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceDocumentMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceDocumentMainExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceDocumentUnit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceDocumentUnitExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMainAccessory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMainAccessoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMainAttributelist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMainAttributelistExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMainManual.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMainManualExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenanceAccessory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenanceAccessoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenanceItems.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenanceItemsExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenancePlansDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenancePlansDetailsExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenancePlansHead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenancePlansHeadExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenanceRecordDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenanceRecordDetailsExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenanceRecordHead.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceMaintenanceRecordHeadExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceUnitAccessory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/DeviceUnitAccessoryExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/EquipmentArchiveRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/EquipmentBaseInstrument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/EquipmentBaseManufacturer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/EquipmentCheckPointRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/EquipmentInstructorRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/EquipmentRepairRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/ProcedureTestItemRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/ProcedureTestRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/ProductLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/ProductTestItemStandard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/ProductionProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/PurchaseReportRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/RawTestItemStandard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/RepoBaseSerialNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/RepoDiffRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/RepoInRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/RepoOutApply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/RepoRedTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/RepoStock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/SampleDeliveringRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TaskHandlingRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TechniqueBaseProductClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TechniqueBaseRawManufacturer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TechniqueBaseRawMaterial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TechniqueProductStandardRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TechniqueProductTestItemStandard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TechniqueRawItemRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TechniqueRawStandardRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TechniqueRawTestItemStandard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TestItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TestItemResultRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/TestReportRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/UnqualifiedTestItemResultRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/UnqualifiedTestReportRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/UnqualifiedTracingRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/domain/UnqualifiedTracingTestRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/AuthDepartmentDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/AuthRoleDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/AuthUserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/CommonBatchNumberDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/CommonNameDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/DeptManageDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/DeviceDocumentMainDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/DeviceDocumentUnitDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/MaterialCodeDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/PageBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/ProcedureTestRecordDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/PurchaseReportRecordDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/RawTestReportDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/SampleDeliveringRecordDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/SampleItemDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/TaskDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/TestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/TestItemDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/TestItemResultRecordDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/TestReportRecordDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/equipment/EquipmentArchiveDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/equipment/EquipmentInstructorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/quality/product/ProductReportHeadDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/quality/product/TestResultDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/quality/purchase/PurchaseRawDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/quality/purchase/PurchaseRecordHeadDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/quality/purchase/ValidTestRecordDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/quality/unqualified/GeneralHeadDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/quality/unqualified/UnqualifiedDetailDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/quality/unqualified/UnqualifiedResultDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/repository/RealStockDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/repository/RedTableDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/repository/RepoDiffRecordDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/repository/RepoInRecordDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/repository/RepoOutApplyDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/repository/RepoOutReceiveMessageDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/repository/RepoSendOutDetailDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/repository/RepoStockDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/technique/TechniqueProductStandardRecordDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/technique/TechniqueProductTestItemDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/technique/TechniqueRawStandardRecordDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dto/technique/TechniqueRawTestItemDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dynamicds/DynamicDataSourceContextHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/dynamicds/DynamicRoutingDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/exceptions/EnumExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/exceptions/HandleExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/exceptions/JcExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/AuthDepartmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/AuthRoleMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/AuthUserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/BasicInfoDeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/BasicInfoDeviceStatusMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/BasicInfoUserDeviceDeptMapMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/CommonBatchNumberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DataTaskRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeliveryFactoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceDocumentMainMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceDocumentUnitMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceMainAccessoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceMainAttributelistMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceMainManualMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceMaintenanceAccessoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceMaintenanceItemsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceMaintenancePlansDetailsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceMaintenancePlansHeadMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceMaintenanceRecordDetailsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceMaintenanceRecordHeadMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/DeviceUnitAccessoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/EquipmentArchiveRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/EquipmentBaseInstrumentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/EquipmentBaseManufacturerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/EquipmentCheckPointRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/EquipmentInstructorRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/EquipmentRepairRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/ProcedureTestRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/ProductLineMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/ProductTestItemStandardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/ProductionProcessMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/PurchaseReportRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/RawTestItemStandardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/RepoBaseSerialNumberMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/RepoDiffRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/RepoInRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/RepoOutApplyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/RepoRedTableMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/RepoStockMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/SampleDeliveringRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TaskHandlingRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TaskMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TechniqueBaseProductClassMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TechniqueBaseRawManufacturerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TechniqueBaseRawMaterialMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TechniqueProductStandardRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TechniqueProductTestItemStandardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TechniqueRawItemRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TechniqueRawStandardRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TechniqueRawTestItemStandardMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TestItemMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TestItemResultRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/TestReportRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/UnqualifiedTestItemResultRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/UnqualifiedTestReportRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/UnqualifiedTracingRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/mapper/UnqualifiedTracingTestRecordMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/Observed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/Observer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/RedTableHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/RepoOutHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/TaskMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/TaskObserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/TaskServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/UnqualifiedHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/UnqualifiedTracingHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/factorypattern/CommonBatchFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/responsibilitypattern/AbstractCommonBatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/responsibilitypattern/MedCommonHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/responsibilitypattern/NullCommonHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/responsibilitypattern/ProCommonHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/model/responsibilitypattern/RawCommonHandle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/AuthUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/AuthUserServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/CommonBatchNumberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/CommonBatchNumberServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DataTaskRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DataTaskRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeliveryFactoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeliveryFactoryServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeptManageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeptManageServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceDocumentAccService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceDocumentAccServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceDocumentManageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceDocumentManageServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceDocumentUnitService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceDocumentUnitServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceMainAttributelistService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceMainAttributelistServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceManualService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceManualServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceStatusService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/DeviceStatusServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/EquipmentArchiveRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/EquipmentArchiveRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/EquipmentBaseInstrumentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/EquipmentBaseInstrumentServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/EquipmentBaseManufacturerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/EquipmentBaseManufacturerServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/EquipmentInstructorRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/EquipmentInstructorRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/EquipmentRepairRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/EquipmentRepairRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/MiddleProductionDetectionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/MiddleProductionDetectionServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/ProcedureTestRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/ProcedureTestRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/ProductLineService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/ProductLineServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/ProductRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/ProductRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/ProductionProcessService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/ProductionProcessServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/PurchaseReportRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/PurchaseReportRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RawTestReportRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RawTestReportRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoBaseSerialNumberService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoBaseSerialNumberServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoDiffRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoDiffRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoInRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoInRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoOutApplyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoOutApplyServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoRedTableService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoRedTableServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoStockService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/RepoStockServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/SampleDeliveringRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/SampleDeliveringRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TaskService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TaskServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TechniqueProductStandardRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TechniqueProductStandardRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TechniqueRawStandardRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TechniqueRawStandardRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TestItemResultRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TestItemResultRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TestItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TestItemServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TestReportRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/TestReportRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/UnqualifiedTestItemResultRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/UnqualifiedTestItemResultRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/UnqualifiedTestReportRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/UnqualifiedTestReportRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/UnqualifiedTracingRecordService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/service/UnqualifiedTracingRecordServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/NumberGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/RequestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/ResultUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/ScheduledTasks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/TestItemUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/UploadUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/WeChatUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/itemCode/AbstractMaterialDecoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/itemCode/AbstractMaterialEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/itemCode/CodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/itemCode/DecoderV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/itemCode/EncoderV1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/itemCode/MaterialCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/jwt/JWTCompressUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/jwt/JwtProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/java/com/jinchi/common/utils/jwt/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/application-hndx.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/application-local.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/backup/jc_integration_db_bak.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/AuthDepartmentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/AuthRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/AuthUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/BasicInfoDeptMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/BasicInfoDeviceStatusMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/BasicInfoUserDeviceDeptMapMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/CommonBatchNumberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DataTaskRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeliveryFactoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceDocumentMainMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceDocumentUnitMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceMainAccessoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceMainAttributelistMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceMainManualMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceMaintenanceAccessoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceMaintenanceItemsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceMaintenancePlansDetailsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceMaintenancePlansHeadMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceMaintenanceRecordDetailsMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceMaintenanceRecordHeadMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/DeviceUnitAccessoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/EquipmentArchiveRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/EquipmentBaseInstrumentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/EquipmentBaseManufacturerMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/EquipmentCheckPointRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/EquipmentInstructorRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/EquipmentRepairRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/ProcedureTestRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/ProductLineMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/ProductTestItemStandardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/ProductionProcessMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/PurchaseReportRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/RawTestItemStandardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/RepoBaseSerialNumberMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/RepoDiffRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/RepoInRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/RepoOutApplyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/RepoRedTableMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/RepoStockMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/SampleDeliveringRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TaskHandlingRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TaskMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TechniqueBaseProductClassMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TechniqueBaseRawManufactuereMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TechniqueBaseRawMaterialMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TechniqueProductStandardRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TechniqueProductTestItemStandardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TechniqueRawItemRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TechniqueRawStandardRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TechniqueRawTestItemStandardMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TestItemMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TestItemResultRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/TestReportRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/UnqualifiedTestItemResultRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/UnqualifiedTestReportRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/UnqualifiedTracingRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/src/main/resources/xml/UnqualifiedTracingTestRecordMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/src/main/java/com/jinchi/proxy/ProxyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proxy/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/ApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/config/RestTemplateConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/controller/JcApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/controller/RepoApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/domain/main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/dto/Result.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/dto/jcapi/InPostDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/dto/jcapi/OutPostDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/dto/jcapi/OutResultDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/dto/repoapi/OutPlanCancelDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/dto/repoapi/OutPlanDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/dto/repoapi/OutPlanListDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/dto/repoapi/RedTableDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/dto/repoapi/StorageCheckDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/enums/UrlEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/exceptions/ApiExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/exceptions/EnumExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/exceptions/HandleExceptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/service/jcapiservice/RepoOutService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/service/jcapiservice/RepoOutServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/service/repoapiservice/OutPlanCancelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/service/repoapiservice/OutPlanCancelServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/service/repoapiservice/OutPlanService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/service/repoapiservice/OutPlanServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/service/repoapiservice/RedTableService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/service/repoapiservice/RedTableServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/service/repoapiservice/StorageCheckService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/service/repoapiservice/StorageCheckServiceImp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/utils/BasicHttpBindingUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/utils/ResultUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/DeletePlanOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/DeletePlanOutResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/ERPService.wsdl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/IERPService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/SERPService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/SendInResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/SendInResultResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/SendOutResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/SendOutResultResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/SendPlanOutResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/SendPlanOutResultResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/SetIOTaskPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/SetIOTaskPostResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/SetStorageCostPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/SetStorageCostPostResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/StorageCheckPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/java/com/jc/api/webservice/StorageCheckPostResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../repoapi/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/jinchi/server/ServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/resources/application.yml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1246#1488#0" expanded="true" />
+                <element signature="e#1487#1488#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/computer.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory/PaintWelcome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory/DrawLine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="64" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory/DrawRectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory/DrawCircle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/PaintClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="386" selection-start-line="386" selection-end-line="386" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1869#1870#0" expanded="true" />
+                <element signature="e#1912#1913#0" expanded="true" />
+                <element signature="e#2433#2618#0" expanded="true" />
+                <element signature="e#2617#2618#0" expanded="true" />
+                <element signature="e#3641#3878#0" expanded="true" />
+                <element signature="e#3877#3878#0" expanded="true" />
+                <element signature="e#10079#10080#0" expanded="true" />
+                <element signature="e#10166#10167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory/Factory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/factory/DrawImg.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/entity/PaintHistory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#728#729#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#840#841#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#978#979#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1036#1037#0" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
+                <element signature="e#1148#1149#0" expanded="true" />
+                <element signature="e#1176#1177#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>serialPortPanel</find>
+      <find>error</find>
+      <find>state</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/Client.java" />
+        <option value="$PROJECT_DIR$/src/Util/DrawLine.java" />
+        <option value="$PROJECT_DIR$/src/Util/DrawRectangle.java" />
+        <option value="$PROJECT_DIR$/src/Util/DrawCircle.java" />
+        <option value="$PROJECT_DIR$/src/Util/PaintWelcome.java" />
+        <option value="$PROJECT_DIR$/src/entity/paintHistory.java" />
+        <option value="$PROJECT_DIR$/src/entity/PaintHistory.java" />
+        <option value="$PROJECT_DIR$/src/main/WelcomeClient.java" />
+        <option value="$PROJECT_DIR$/src/util/Factory.java" />
+        <option value="$PROJECT_DIR$/src/util/DrawImg.java" />
+        <option value="$PROJECT_DIR$/src/factory/Factory.java" />
+        <option value="$PROJECT_DIR$/src/main/PaintClient.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="48" />
+    <option name="y" value="15" />
+    <option name="width" value="1285" />
+    <option name="height" value="921" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DrawImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DrawImg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DrawImg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DrawImg" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaProject\DrawImg\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Client" />
+      <module name="DrawImg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WelcomeClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b4c77bb-038b-4d65-b091-d6c72cb15ba4" name="Default Changelist" comment="" />
+      <created>1569598425682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569598425682</updated>
+      <workItem from="1569598427384" duration="11760000" />
+      <workItem from="1569658967433" duration="19455000" />
+      <workItem from="1569721787607" duration="6982000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="38197000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15458423" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.084199585" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32952183" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/javax/swing/JFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="478" column="16" selection-start-line="478" selection-start-column="16" selection-end-line="478" selection-end-column="16" />
+          <folding>
+            <element signature="e#17801#17802#0" expanded="true" />
+            <element signature="e#17825#17826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/awt/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="3317" column="10" selection-start-line="3317" selection-start-column="7" selection-end-line="3317" selection-end-column="10" />
+          <folding>
+            <element signature="e#114480#114481#0" expanded="true" />
+            <element signature="e#114527#114528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/DrawLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/computer.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/entity/PaintHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1246#1488#0" expanded="true" />
+            <element signature="e#1487#1488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/PaintWelcome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/DrawCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/DrawImg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/DrawRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/PaintClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="386" selection-start-line="386" selection-end-line="386" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1912#1913#0" expanded="true" />
+            <element signature="e#2433#2618#0" expanded="true" />
+            <element signature="e#2617#2618#0" expanded="true" />
+            <element signature="e#3641#3878#0" expanded="true" />
+            <element signature="e#3877#3878#0" expanded="true" />
+            <element signature="e#10079#10080#0" expanded="true" />
+            <element signature="e#10166#10167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
