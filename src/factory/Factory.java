@@ -8,4 +8,15 @@ package factory;
  */
 
 public class Factory {
+
+    public  static  DrawImg getPaint(int state){
+        if(state == 0){
+            return new DrawLine();
+        }else if (state == 1){
+            return new DrawRectangle();
+        }else{
+            return new DrawCircle();
+        }
+    }
+
 }

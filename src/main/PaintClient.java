@@ -11,6 +11,7 @@ import factory.DrawCircle;
 import factory.DrawLine;
 import factory.DrawRectangle;
 import entity.PaintHistory;
+import factory.Factory;
 
 import javax.swing.*;
 import javax.swing.plaf.basic.BasicBorders;
@@ -73,6 +74,9 @@ public class PaintClient extends JFrame {
 
     private List<PaintHistory> paintHistories = new ArrayList<>();
 
+    private JButton backJButton0 = new JButton("back");
+    private JButton backJButton1 = new JButton("clean");
+
     /**
      * 类的构造方法
      *
@@ -120,6 +124,9 @@ public class PaintClient extends JFrame {
 
                 if (x1 != x2) //不是点击加入
                     paintHistories.add(new PaintHistory(state, color, stroke, x1, y1, x2, y2));
+
+                x2 = x1;
+                y2 = y1;
             }
 
             @Override
@@ -323,6 +330,41 @@ public class PaintClient extends JFrame {
             }
         });
 
+        backJButton0.setBounds(10, 130, 60, 20);
+        backJButton1.setBounds(80, 130, 50, 20);
+        backJButton0.setFont(new Font("宋体", Font.BOLD, 10));
+        backJButton0.setForeground(Color.gray);
+        backJButton1.setFont(new Font("宋体", Font.BOLD, 5));
+        backJButton1.setForeground(Color.gray);
+        backJButton1.setFocusPainted(false);
+
+        backJButton0.setFocusPainted(false);
+
+        backJButton0.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                List<PaintHistory> temp = new ArrayList<>();
+                for(int i = 0 ; i < paintHistories.size() - 1; i++){
+                    temp.add(paintHistories.get(i));
+                }
+                paintHistories = temp;
+            }
+        });
+
+        backJButton1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                paintHistories.clear();
+            }
+        });
+
+        setPanel.add(backJButton0);
+        setPanel.add(backJButton1);
+
+
+
+        /** *******************************************************************************  */
+
         this.setResizable(false);
         new Thread(new RepaintThread()).start(); // 启动重画线程
     }
@@ -346,11 +388,11 @@ public class PaintClient extends JFrame {
 
         for(PaintHistory p : paintHistories){
             if (p.getState() == 0) {
-                DrawLine.paint(g, p.getColor(), p.getStroke(), p.getX1(), p.getY1(), p.getX2(), p.getY2());
+                Factory.getPaint(0).paint(g, p.getColor(), p.getStroke(), p.getX1(), p.getY1(), p.getX2(), p.getY2());
             } else if (p.getState() == 1) {
-                DrawRectangle.paint(g, p.getColor(), p.getStroke(), p.getX1(), p.getY1(), p.getX2(), p.getY2());
+                Factory.getPaint(1).paint(g, p.getColor(), p.getStroke(), p.getX1(), p.getY1(), p.getX2(), p.getY2());
             } else if (p.getState() == 2) {
-                DrawCircle.paint(g, p.getColor(), p.getStroke(), p.getX1(), p.getY1(), p.getX2(), p.getY2());
+                Factory.getPaint(2).paint(g, p.getColor(), p.getStroke(), p.getX1(), p.getY1(), p.getX2(), p.getY2());
             }
         }
 
@@ -358,11 +400,11 @@ public class PaintClient extends JFrame {
          * 这里最后用工厂模式获取
          */
         if (state == 0) {
-            DrawLine.paint(g, color, stroke, x1, y1, x2, y2);
+            Factory.getPaint(0).paint(g, color, stroke, x1, y1, x2, y2);
         } else if (state == 1) {
-            DrawRectangle.paint(g, color, stroke, x1, y1, x2, y2);
+            Factory.getPaint(1).paint(g, color, stroke, x1, y1, x2, y2);
         } else if (state == 2) {
-            DrawCircle.paint(g, color, stroke, x1, y1, x2, y2);
+            Factory.getPaint(2).paint(g, color, stroke, x1, y1, x2, y2);
         }
 
 
