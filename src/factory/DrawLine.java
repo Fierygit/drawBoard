@@ -8,9 +8,9 @@ import java.awt.*;
  * @date 2019/9/28 10:01
  */
 
-public class DrawLine {
+public class DrawLine extends DrawImg{
 
-    public static void paint(Graphics g,Color color,Float stroke,int x1,int y1,int x2,int y2){
+    public  void paint(Graphics g,Color color,float stroke,int x1,int y1,int x2,int y2){
 
         g.setColor(color);
         Graphics2D g2d = (Graphics2D) g;
